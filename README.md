@@ -1,6 +1,9 @@
 # PyEtchASketch
 Drawing pictures using an etch a sketch, motors and python.
 
+Detailed writeup available here:
+http://sunnybala.com/2018/09/10/python-etch-a-sketch.html
+
 I did the image analysis (EtchASketch.py) on my PC. It generates a path in the Paths/ folder. 
 I then ran pictureDraw.py (which imports stepperMotor.py) on my raspberry pi to actually draw the images. You'll need to adjust these files to calibrate for your specific build.
 
