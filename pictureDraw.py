@@ -193,3 +193,7 @@ def draw_path(path):
             left_motor.rotate(step*x)
     left_motor.close()
     right_motor.close()
+
+
+if __name__ == '__name__':
+    arrow_control()  # if pictureDraw is run, go to arrow_control
