@@ -9,9 +9,7 @@ from PIL import Image, ImageFilter
 import PIL.ImageOps
 
 def auto_canny(image, sigma=0.33):
-    '''
-    https://www.pyimagesearch.com/2015/04/06/zero-parameter-automatic-canny-edge-detection-with-python-and-opencv/
-    '''
+    '''https://www.pyimagesearch.com/2015/04/06/zero-parameter-automatic-canny-edge-detection-with-python-and-opencv/'''
     # compute the median of the single channel pixel intensities
     v = np.median(image)
 
